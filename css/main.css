@@ -790,6 +790,8 @@ td.gutter {
 
 .avatar-img-border {
   margin-top: 25px;
+}
+.avatar-img {
   boder-radius: 50%;
   max-width: 150px;
 }
@@ -802,7 +804,7 @@ td.gutter {
   .navbar-custom {
     padding-top: 25px;
   }
-  .avatar-img-border {
+  .avatar-img {
     max-width: 100px;
   }
 }
