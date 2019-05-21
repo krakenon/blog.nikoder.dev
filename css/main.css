@@ -806,3 +806,6 @@ td.gutter {
     max-width: 100px;
   }
 }
+.intro-header {
+  margin-top: 20px;
+}
