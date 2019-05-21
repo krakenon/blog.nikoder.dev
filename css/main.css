@@ -799,13 +799,14 @@ td.gutter {
     padding-top: 50px;
     background-color: transparent;
     text-align: center;
+    border: none;
  }
 @media only screen and (max-width: 768px) {
   .navbar-custom {
     padding-top: 25px;
   }
   .avatar-img {
-    max-width: 100px;
+    max-width: 80px;
   }
 }
 .intro-header {
