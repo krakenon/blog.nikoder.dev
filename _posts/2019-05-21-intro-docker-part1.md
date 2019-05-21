@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Giới thiệu docker và demo ứng dụng đọc số chứng minh nhân dân qua hình ảnh(ocr) (Part1)
+title: Giới thiệu docker và demo ứng dụng đọc số chứng minh nhân dân qua hình ảnh với docker (Part1)
 subtitle: Docker là gì?
 gh-repo: duyluongphung/blogs
 gh-badge: [star, fork, follow]
@@ -8,67 +8,10 @@ tags: [test]
 comments: true
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Docker là một platform mã nguồn mở, với chức năng chính là xây dựng một môi trường ảo để khởi chạy các ứng dụng một cách độc lập với base platform. 
 
-**Here is some bold text**
+Một ví dụ đơn giản: bạn xây dựng một web app với python + flask, bạn muốn run app này trên ubuntu. Tuy nhiên dev team của bạn có 3 người và đang sử dụng nhiều môi trường khác nhau: 1 người sử dụng ubuntu, 1 người sử dụng windows, 1 người sử dụng MacOS.
+Act cool đứng hình mất 5s. Khi đó với vai trò là người support CI/CD cho dự án rõ ràng lúc này bạn phải setup và fixbug cho cả 3 môi trường để quá trình develop và test không bị stuck: Ubuntu, Windows, MacOS => việc này quá tốn time và có thể sẽ gây ra sự confuse giữa các OS khác nhau.
 
-## Here is a secondary heading
+=> Vấn đề này sẽ được giải quyết với Docker. Với docker bạn chỉ cần cài Docker trên tất cả các máy này và define các packages cần thiết cho môi trường đích (production release) là ubuntu mà thôi. Docker sẽ làm phần còn lại, dev team của bạn khi đó ko cần quan tâm đến develop environment nữa.
 
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
