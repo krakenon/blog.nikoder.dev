@@ -11,7 +11,31 @@ comments: true
 Docker là một platform mã nguồn mở, với chức năng chính là xây dựng một môi trường ảo để khởi chạy các ứng dụng một cách độc lập với base platform. 
 
 Một ví dụ đơn giản: bạn xây dựng một web app với python + flask, bạn muốn run app này trên ubuntu. Tuy nhiên dev team của bạn có 3 người và đang sử dụng nhiều môi trường khác nhau: 1 người sử dụng ubuntu, 1 người sử dụng windows, 1 người sử dụng MacOS.
->*Act cool đứng hình mất 5s!!!*.
+>absl-py==0.7.0
+astor==0.7.1
+astroid==2.2.5
+backcall==0.1.0
+bleach==3.1.0
+cachetools==3.1.0
+certifi==2019.3.9
+chardet==3.0.4
+Click==7.0
+cmake==3.13.3
+colorama==0.4.1
+cycler==0.10.0
+Cython==0.29.7
+decorator==4.3.2
+dlib==19.17.0
+dnspython==1.16.0
+entrypoints==0.3
+eventlet==0.24.1
+ffmpy==0.2.2
+Flask==1.0.2
+Flask-Cors==3.0.7
+Flask-SocketIO==3.3.2
+...
+
+>*Act cool đứng hình mất 5s!!!*
 
 Khi đó với vai trò là người support CI/CD cho dự án rõ ràng lúc này bạn phải setup và fixbug cho cả 3 môi trường để quá trình develop và test không bị stuck: Ubuntu, Windows, MacOS => việc này quá tốn time và có thể sẽ gây ra sự confuse giữa các OS khác nhau.
 
