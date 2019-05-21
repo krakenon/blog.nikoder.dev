@@ -12,7 +12,7 @@ Docker là một platform mã nguồn mở, với chức năng chính là xây d
 
 Một ví dụ đơn giản: bạn xây dựng một web app với python + flask, bạn muốn run app này trên ubuntu. Tuy nhiên dev team của bạn có 3 người và đang sử dụng nhiều môi trường khác nhau: 1 người sử dụng ubuntu, 1 người sử dụng windows, 1 người sử dụng MacOS.
 >absl-py==0.7.0
->
+
 >astor==0.7.1
 
 >astroid==2.2.5
