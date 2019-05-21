@@ -789,11 +789,13 @@ td.gutter {
 }
 
 .avatar-img-border {
-  margin-top: 40px;
+  margin-top: 25px;
 }
-
-@media only screen and (min-width: 768px) {
-  .navbar-custom {
+.navbar-custom {
     padding-top: 50px;
+ }
+@media only screen and (max-width: 768px) {
+  .navbar-custom {
+    padding-top: 25px;
   }
 }
