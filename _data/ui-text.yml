@@ -1,5 +1,20 @@
 # User interface text and labels
 
+# Vietnamese
+vi: &DEFAULT_VI
+  comments_label             : "Gửi bình luận"
+  comments_title             : "Bình luận"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Bình luận"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "Họ và Tên"
+  comment_form_email_label   : "Email liên hệ"
+  comment_form_website_label : "Website (nếu có)"
+  comment_btn_submit         : "Gửi ngay"
+  comment_btn_submitted      : "Đã gửi"
+  comment_success_msg        : "Cảm ơn bạn đã theo dõi bài viết và gửi bình luận này. Mình sẽ phản hồi sớm nhất có thể !^^"
+  comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+
 # English (default)
 # -----------------
 en: &DEFAULT_EN
