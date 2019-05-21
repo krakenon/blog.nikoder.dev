@@ -5,6 +5,9 @@ title: Guddev blogs
 
 description: To be a giant, let to be an ant knight!
 
+# data
+locale: vi
+  
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
