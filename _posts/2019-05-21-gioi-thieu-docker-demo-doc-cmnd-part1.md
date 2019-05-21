@@ -4,7 +4,7 @@ title: Giới thiệu docker và demo ứng dụng đọc số chứng minh nhâ
 subtitle: Docker là gì?
 gh-repo: duyluongphung/blogs
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [docker]
 comments: true
 ---
 
