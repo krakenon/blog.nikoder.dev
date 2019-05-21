@@ -790,12 +790,19 @@ td.gutter {
 
 .avatar-img-border {
   margin-top: 25px;
+  boder-radius: 50%;
+  max-width: 150px;
 }
 .navbar-custom {
     padding-top: 50px;
+    background-color: transparent;
+    text-align: center;
  }
 @media only screen and (max-width: 768px) {
   .navbar-custom {
     padding-top: 25px;
+  }
+  .avatar-img-border {
+    max-width: 100px;
   }
 }
