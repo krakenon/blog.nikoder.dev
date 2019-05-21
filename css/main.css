@@ -787,3 +787,13 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+.avatar-img-border {
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-custom {
+    padding-top: 50px;
+  }
+}
