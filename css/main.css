@@ -793,6 +793,7 @@ td.gutter {
 }
 .avatar-img {
   max-width: 150px;
+  border-radius: 50%;
 }
 .navbar-custom {
     padding-top: 50px;
