@@ -1,18 +1,18 @@
 {% assign author = site.authors[page.author] %}
 <hr>
 <span class="author-description">
-   <div>
+   <div class="row">
       {% if author.image %}
-         <img src="{{author.image}}" class="author-img">
+         <img src="{{author.image}}" class="author-img col-md-3">
       {% endif %}
-      <div>
+      <div class="col-md-9">
          <h3> {{author.name}} &nbsp;
            {% if author.facebook %}
               <a href="{{author.facebook}}" class="icon fa-facebook"><span class="label">Facebook</span></a> 
             {% endif %}
           </h3>
+         {{ author.bio }}
       </div>
    </div>
-   {{ author.bio }}
 </span>
 <br>
