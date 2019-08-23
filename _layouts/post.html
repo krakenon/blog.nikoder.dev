@@ -31,8 +31,7 @@ layout: base
         {{ content }}
       </article>
       
-       # if there is an author bio
-      {% if author %}
+      {% if page.author %}
           {% include author_bio.html %}
       {% endif %}
     
