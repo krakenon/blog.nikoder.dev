@@ -5,7 +5,7 @@ subtitle: synchronus/asynchronus và multiple thread
 gh-repo: duyluongphung/blogs
 gh-badge: [star, fork, follow]
 tags: [javascript,async,sync]
-comments: true
+comments: false
 ---
 
 Với các bạn lập trình web thì hẳn khái niệm bất đồng bộ (asynchronus) và đồng bộ (synchronus) không còn quá xa lạ. Tuy nhiên có rất nhiều sự nhầm lẫn giữa synchronus/asynchronus với multiple threading. Chúng ta cùng phân tích nhe!
