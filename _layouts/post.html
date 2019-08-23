@@ -30,6 +30,16 @@ layout: base
       <article role="main" class="blog-post">
         {{ content }}
       </article>
+      
+      {% if author %}
+      <span>
+        Written by {{ author.name }}
+      </span>
+    {% else %}
+      <span>
+        Written by Toby Osbourn
+      </span>
+    {% endif %}
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
