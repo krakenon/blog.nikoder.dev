@@ -1,3 +1,7 @@
 .author-description {
-  width: 100%
+  width: 100%;
+}
+
+.author-img {
+  border-radius: 50%;
 }
