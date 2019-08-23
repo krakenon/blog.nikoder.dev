@@ -5,6 +5,7 @@ subtitle: Multi threading hay đa luồng lợi - hại ra sao?
 gh-repo: duyluongphung/blogs
 gh-badge: [star,fork,follow]
 tags: [multi-thread,multi,threading]
+author: Duy Lương
 comments: false
 ---
 
