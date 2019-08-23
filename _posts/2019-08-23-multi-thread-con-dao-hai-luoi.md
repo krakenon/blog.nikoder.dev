@@ -1,10 +1,10 @@
- ---
+---
 layout: post
-title: Multi threading, con dao hai lưỡi của developer!
+title: Multi threading, con dao hai lưỡi của developer
 subtitle: Multi threading hay đa luồng lợi - hại ra sao?
 gh-repo: duyluongphung/blogs
-gh-badge: [star, fork, follow]
-tags: [multi-thread, multi,threading]
+gh-badge: [star,fork,follow]
+tags: [multi-thread,multi,threading]
 comments: true
 ---
 
