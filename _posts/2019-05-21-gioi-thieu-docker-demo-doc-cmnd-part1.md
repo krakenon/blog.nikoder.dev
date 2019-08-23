@@ -5,6 +5,7 @@ subtitle: Docker là gì?
 gh-repo: duyluongphung/blogs
 gh-badge: [star, fork, follow]
 tags: [docker]
+author: duy_luong
 comments: false
 ---
 
