@@ -815,3 +815,15 @@ td.gutter {
 .author-img {
   border-radius: 50%;
 }
+
+.fa {
+  border-radius: 50%;
+    background-color: #008aff;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 7.5px;
+    font-size: 20px;
+    color: #fff;
+}
