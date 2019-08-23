@@ -812,3 +812,6 @@ td.gutter {
 .intro-header {
   margin-top: 20px;
 }
+.author-img {
+  border-radius: 50%;
+}
