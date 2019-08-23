@@ -5,7 +5,7 @@ subtitle: Multi threading hay đa luồng lợi - hại ra sao?
 gh-repo: duyluongphung/blogs
 gh-badge: [star,fork,follow]
 tags: [multi-thread,multi,threading]
-comments: true
+comments: false
 ---
 
 Multi threading, hay đa luồng là một phương pháp lập trình hướng tới việc xử lý các tác vụ đồng thời song song dựa trên thiết kế phần cứng và cụ thể là CPU.
