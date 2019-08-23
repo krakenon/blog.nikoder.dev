@@ -5,7 +5,7 @@ subtitle: Docker là gì?
 gh-repo: duyluongphung/blogs
 gh-badge: [star, fork, follow]
 tags: [docker]
-comments: true
+comments: false
 ---
 
 Docker là một platform mã nguồn mở, với chức năng chính là xây dựng một môi trường ảo để khởi chạy các ứng dụng một cách độc lập với host platform. 
