@@ -5,6 +5,7 @@ subtitle: synchronus/asynchronus và multiple thread
 gh-repo: duyluongphung/blogs
 gh-badge: [star, fork, follow]
 tags: [javascript,async,sync]
+author: duy_luong
 comments: false
 ---
 
