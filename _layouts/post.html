@@ -31,11 +31,9 @@ layout: base
         {{ content }}
       </article>
       
-      {% assign author = site[page.author] %}
-      {% if author %}
-        <span>
-          Written by {{ author.name }}
-        </span>
+       ## if there is an author bio
+      {% if author.bio %}
+          {% include author_bio.html %}
       {% endif %}
     
       {% if page.tags.size > 0 %}
