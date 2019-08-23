@@ -31,10 +31,6 @@ layout: base
         {{ content }}
       </article>
       
-      {% if page.author %}
-          {% include author_bio.html %}
-      {% endif %}
-    
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
           Tags:
@@ -46,6 +42,10 @@ layout: base
             {{ page.tags | join: ", " }}
           {% endif %}
         </div>
+      {% endif %}
+      
+      {% if page.author %}
+          {% include author_bio.html %}
       {% endif %}
 
       {% if page.social-share %}
