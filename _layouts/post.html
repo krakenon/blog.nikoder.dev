@@ -31,16 +31,13 @@ layout: base
         {{ content }}
       </article>
       
+      {% assign author = site[page.author] %}
       {% if author %}
-      <span>
-        Written by {{ author.name }}
-      </span>
-    {% else %}
-      <span>
-        Written by Toby Osbourn
-      </span>
-    {% endif %}
-
+        <span>
+          Written by {{ author.name }}
+        </span>
+      {% endif %}
+    
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
           Tags:
