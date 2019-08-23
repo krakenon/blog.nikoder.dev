@@ -43,6 +43,6 @@ Trên đây, là chia sẻ của mình mạn bàn về một vài khía cạnh, 
 Cảm ơn vì bạn đã đọc tới đây!!!
 
 Refer with c# tuts: 
-[https://www.tutorialspoint.com/csharp/csharp_multithreading.htm](https://www.tutorialspoint.com/csharp/csharp_multithreading.htm)
-[https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadpool?view=netframework-4.8](https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadpool?view=netframework-4.8).
+- [https://www.tutorialspoint.com/csharp/csharp_multithreading.htm](https://www.tutorialspoint.com/csharp/csharp_multithreading.htm)
+- [https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadpool?view=netframework-4.8](https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadpool?view=netframework-4.8).
 
