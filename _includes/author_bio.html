@@ -2,17 +2,17 @@
 <span>
    <div>
       {% assign author = page.author %}
-      {% if author.image %}
-         <img src="{{author.image}}" class="author-img">
+      {% if page.author.image %}
+         <img src="{{page.author.image}}" class="author-img">
       {% endif %}
       <div>
-         <h3> {{author.name}} &nbsp;
-           {% if author.twitter %}
-              <a href="{{author.facebook}}" class="icon fa-facebook"><span class="label">Facebook</span></a> 
+         <h3> {{page.author.name}} &nbsp;
+           {% if page.author.facebook %}
+              <a href="{{page.author.facebook}}" class="icon fa-facebook"><span class="label">Facebook</span></a> 
             {% endif %}
           </h3>
       </div>
    </div>
-   {{ author.bio }}
+   {{ page.author.bio }}
 </span>
 <br>
