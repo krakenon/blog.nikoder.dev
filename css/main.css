@@ -794,6 +794,8 @@ td.gutter {
 .avatar-img {
   max-width: 150px;
   border-radius: 50%;
+  border: 5px solid #000;
+    padding: 15px;
 }
 .navbar-custom {
     padding-top: 50px;
