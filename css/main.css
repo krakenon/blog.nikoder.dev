@@ -814,6 +814,7 @@ td.gutter {
 }
 .author-img {
   border-radius: 50%;
+      max-width: 150px;
 }
 
 .author-description .fa {
