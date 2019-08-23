@@ -816,7 +816,7 @@ td.gutter {
   border-radius: 50%;
 }
 
-.fa {
+.author-description .fa {
   border-radius: 50%;
     background-color: #404040;
     width: 30px;
