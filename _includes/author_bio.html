@@ -10,6 +10,16 @@
          {% if author.facebook %}
             <a href="{{author.facebook}}"><i class="fa fa-facebook"></i></a>
          {% endif %}
+         {% if author.github %}
+            <a href="{{author.github}}"><i class="fa fa-github"></i></a>
+         {% endif %}
+         {% if author.website %}
+            <a href="{{author.website}}"><i class="fa fa-user"></i></a>
+         {% endif %}
+         {% if author.email %}
+            <a href="mailto:{{author.email}}"><i class="fa fa-envelope"></i></a>
+         {% endif %}
+         <br>
          {{ author.bio }}
       </div>
    </div>
