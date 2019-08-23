@@ -6,11 +6,11 @@
          <img src="{{author.image}}" class="author-img col-md-3">
       {% endif %}
       <div class="col-md-9">
-         <h3> {{author.name}} &nbsp;
-           {% if author.facebook %}
-              <a href="{{author.facebook}}" class="icon fa-facebook"><span class="label">Facebook</span></a> 
-            {% endif %}
+         <h3> {{author.name}}
           </h3>
+         {% if author.facebook %}
+              <a href="{{author.facebook}}" ><i class="fa fa-facebook" /></a>
+            {% endif %}
          {{ author.bio }}
       </div>
    </div>
