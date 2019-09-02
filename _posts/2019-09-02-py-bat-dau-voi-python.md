@@ -54,7 +54,8 @@ Virtual là môi trường cho phép bạn tạo ra một môi trường chỉ s
 
 > Thông thường chúng ta sử dụng cả 2 môi trường này. Chúng ta sẽ các packages common lên global, và các packages riêng biệt lên môt trường virtual.
 
-##2. Hello world với python
+
+## 2. Hello world với python
 > Đang hiểu là các bạn đã cài xong python lên máy rồi nha!
 Nếu chưa cài python thì các bạn tham khảo: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
