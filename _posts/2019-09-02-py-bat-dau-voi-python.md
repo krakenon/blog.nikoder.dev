@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python series part1: Bắt đầu với python
+title: \[Python\] Python series part1, Bắt đầu với python
 subtitle: Series giới thiệu về python và những suy nghĩ đầu tiên về python
 gh-repo: duyluongphung/blogs
 gh-badge: [star,fork,follow]
@@ -8,6 +8,7 @@ tags: [python,starter]
 author: duy_luong
 comments: false
 ---
+
 
 # Part1: Bắt đầu với python
 Ở part này mình sẽ không đi sâu vào các khái niệm liên quan đến python quá nhiều, kiểu như định nghĩa, các thông tin chi tiết của python. Mình sẽ giới thiệu cho các bạn những khái niệm cơ bản và cách bắt đầu làm việc với python, hello python!
