@@ -1,6 +1,6 @@
 ---
 layout: post
-title: &#91Python&#93; Python series (part1)&#58; Bắt đầu với python
+title: &#91Python&#93; Python series (part1) &#58; Bắt đầu với python
 subtitle: Series giới thiệu về python và những suy nghĩ đầu tiên về python
 gh-repo: duyluongphung/blogs
 gh-badge: [star,fork,follow]
