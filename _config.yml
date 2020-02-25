@@ -210,7 +210,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-theme: jekyll-theme-merlot
+theme: jekyll-theme-hacker
 
 authors:
   duy_luong:
