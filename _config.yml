@@ -1,7 +1,7 @@
 url: "https://blog.krakenui.com"
 baseurl: ""
 
-title: Guddev blogs
+title: KrakenUI blogs
 
 description: To be a giant, let to be an ant knight!
 
@@ -85,7 +85,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://blog.guddev.com"
+url-pretty: "https://blog.krakenui.com"
 
 # Staticman support
 staticman:
@@ -115,7 +115,8 @@ title-separator: "-"
 
 # Output options (more information on Jekyll's site)
 # timezone: "America/Vancouver"
-markdown: kramdown
+# markdown: kramdown
+markdown: marked
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
