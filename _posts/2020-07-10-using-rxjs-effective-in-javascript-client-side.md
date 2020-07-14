@@ -13,6 +13,7 @@ comments: false
 
 ## 1. Supscription
 - Alway destroy subscription when component destroy. When subscription created by call 'subscribe', a listen will be created for handle event & callback function. So, if these not destrioy, that still on memory, memory leak can occured. This solution, we will destroy them when these compeleted, suggest on component destroy; using 'unsubscribe' from subscription context.
+
 ```
 import { Subscription } from "rxjs";
 
@@ -66,6 +67,7 @@ export class MyComponent extends React.Component {
 ```
 
 - Handle error when subscription throw error, that assure this behavior without crash when error occured.
+
 ```
     this._mySerive.getAsyncEmail().subscribe(
         email => {
@@ -142,6 +144,6 @@ forkJoin(
 ```
 
 ## 4. References
-- http://reactivex.io/rxjs/class/es6/Subscription.js~Subscription.html
-- http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-map
-- http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-concatMap
+- [RxJS Subscription](http://reactivex.io/rxjs/class/es6/Subscription.js~Subscription.html)
+- [Rxjs Observable](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-map)
+- [Rxjs ConcatMap](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-concatMap)
