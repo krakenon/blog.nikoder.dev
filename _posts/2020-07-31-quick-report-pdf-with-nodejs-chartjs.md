@@ -93,6 +93,10 @@ const reportOptions: ReportOptions = {
 
 - Check you report file _"chartjs_report.pdf"_
 
+## Screens shot
+
+![output1.png](https://raw.githubusercontent.com/DuyLuongPhung/nodejs-pdf-report/master/screen-shots/output1.png)
+
 ## API references
 
 ### PdfOptions
