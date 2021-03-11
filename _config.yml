@@ -1,4 +1,4 @@
-url: "https://blogs.kongd.com"
+url: "https://blogs.kongd.io"
 baseurl: ""
 
 title: KongD Blogs
@@ -85,7 +85,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://blogs.kongd.com"
+url-pretty: "https://blogs.kongd.io"
 
 # Staticman support
 staticman:
