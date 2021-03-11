@@ -1,7 +1,7 @@
-url: "https://blog.krakenui.com"
+url: "https://blogs.kongd.com"
 baseurl: ""
 
-title: KrakenUI blogs
+title: KongD Blogs
 
 description: To be a giant, let to be an ant knight!
 
@@ -50,7 +50,7 @@ footer-img: "/img/bgimage.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Duy Lương
+  name: Luong Phung
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -85,11 +85,11 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://blog.krakenui.com"
+url-pretty: "https://blogs.kongd.com"
 
 # Staticman support
 staticman:
-  repository : "https://github.com/DuyLuongPhung/blogs"
+  repository : "https://github.com/krakenon/blogs"
   branch     : "master"
   endpoint   : # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
   reCaptcha:
@@ -218,7 +218,7 @@ authors:
     name: Duy Lương
     email: luonguit@gmail.com
     bio: I'm a simple man. Yesss, I am a very very simple man!!!
-    image: https://portfolio.krakenui.com/images/logo.png
+    image: /img/logo.png
     facebook: https://www.facebook.com/luonguit
     github: https://github.com/DuyLuongPhung
-    website: https://portfolio.krakenui.com
+    website: https://luong-phung.kongd.io
