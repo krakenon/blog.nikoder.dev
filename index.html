@@ -5,9 +5,15 @@ subtitle: To be a giant, let to be an ant knight!
 use-site-title: true
 ---
 
+{% assign author = site.authors[page.author] %}
+
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
+    {% if author.image %}
+    <img src="{{author.image}}" class="author-img col-md-3" />
+    {% endif %}
+
     <a href="{{ post.url | prepend: site.baseurl }}">
       <h2 class="post-title">{{ post.title }}</h2>
 
