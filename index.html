@@ -8,9 +8,10 @@ use-site-title: true
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
-    {% assign author = site.authors[page.author] %} {% if post.image %}
-
-    <img src="{{author.image}}" class="author-img col-md-3" />
+    {% assign author = site.authors[post.author] %} 
+    
+    {% if author.image %}
+      <img src="{{author.image}}" class="author-img col-md-3" />
     {% endif %}
 
     <a href="{{ post.url | prepend: site.baseurl }}">
