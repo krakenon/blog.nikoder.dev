@@ -320,6 +320,10 @@ footer .theme-by {
   border-bottom: 1px solid #eee;
 }
 
+.post-preview .kd-post-title {
+  display: flex;
+}
+
 @media only screen and (min-width: 768px) {
   .post-preview {
     padding: 35px 0;
