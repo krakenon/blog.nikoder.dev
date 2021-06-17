@@ -95,7 +95,7 @@ const reportOptions: ReportOptions = {
 
 ## Screens shot
 
-![output1.png](https://raw.githubusercontent.com/DuyLuongPhung/nodejs-pdf-report/master/screen-shots/output1.png)
+![output1.png](https://raw.githubusercontent.com/krakenui/nodejs-pdf-report/master/screen-shots/output1.png)
 
 ## API references
 
@@ -124,6 +124,6 @@ const reportOptions: ReportOptions = {
 | data           | object                     | {}      | Report data            |
 
 ## 4. References
-- [nodejs-pdf-report](https://github.com/DuyLuongPhung/nodejs-pdf-report)
+- [nodejs-pdf-report](https://github.com/krakenui/nodejs-pdf-report)
 - [Puppeteer](https://github.com/puppeteer/puppeteer)
 - [EJS](https://ejs.co/)
