@@ -2,7 +2,7 @@
 layout: post
 title: Giới thiệu docker và demo ứng dụng đọc số chứng minh nhân dân qua hình ảnh với docker (Part1)
 subtitle: Docker là gì?
-gh-repo: duyluongphung/blogs
+gh-repo: krakenon/blogs
 gh-badge: [star, fork, follow]
 tags: [docker, opencv, ocr, python]
 author: duy_luong

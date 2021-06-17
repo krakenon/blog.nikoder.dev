@@ -2,7 +2,7 @@
 layout: post
 title: Xử lý đồng bộ và bất đồng bộ trong javascript
 subtitle: synchronus/asynchronus và multiple thread
-gh-repo: duyluongphung/blogs
+gh-repo: krakenon/blogs
 gh-badge: [star, fork, follow]
 tags: [javascript,async,sync]
 author: duy_luong
