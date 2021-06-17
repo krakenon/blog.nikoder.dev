@@ -201,7 +201,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-architect
 
 authors:
   duy_luong:
