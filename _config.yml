@@ -6,15 +6,15 @@ title: KongD Blogs
 description: To be a giant, let to be an ant knight!
 
 # data
-locale: vi
-  
+locale: en
+
 # List of links in the navigation bar
-# navbar-links:
-#   About Me: "aboutme"
-#   Resources:
-#     - Learn markdown: "http://www.markdowntutorial.com/"
-#     - GitHub Pages: "https://pages.github.com/"
-#   Author's home: "http://deanattali.com"
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GitHub Pages: "https://pages.github.com/"
+  Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -89,14 +89,14 @@ url-pretty: "https://blogs.kongd.io"
 
 # Staticman support
 staticman:
-  repository : "https://github.com/krakenon/blogs"
-  branch     : "master"
-  endpoint   : # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
+  repository: "https://github.com/krakenon/blogs"
+  branch: "master"
+  endpoint: # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
   reCaptcha:
     # reCaptcha for Staticman (OPTIONAL)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+    siteKey: # Use your own site key, you need to apply for one on Google
+    secret: # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 
@@ -126,16 +126,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # all files
     values:
       layout: "page"
@@ -157,8 +155,8 @@ exclude:
 
 # prose.io config
 prose:
-  rooturl: '_posts'
-  media: 'img'
+  rooturl: "_posts"
+  media: "img"
   ignore:
     - 404.html
     - LICENSE
