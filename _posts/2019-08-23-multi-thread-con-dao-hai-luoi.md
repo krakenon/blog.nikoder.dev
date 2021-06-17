@@ -1,48 +1,56 @@
 ---
 layout: post
-title: Multi threading, con dao hai lưỡi của developer
-subtitle: Multi threading hay đa luồng lợi - hại ra sao?
+title: Multi threading and development mistakes
+subtitle: What is multi threading helpful?
 gh-repo: krakenon/blogs
-gh-badge: [star,fork,follow]
-tags: [multi-thread,multi,threading]
+gh-badge: [star, fork, follow]
+tags: [multi-thread, multi, threading]
 author: duy_luong
 comments: false
 ---
 
-Multi threading, hay đa luồng là một phương pháp lập trình hướng tới việc xử lý các tác vụ đồng thời song song dựa trên thiết kế phần cứng và cụ thể là CPU.
+Multi threading, or multi-threading is a programming method geared towards processing parallel concurrent tasks based on hardware design and specifically CPU.
 
-Trên thực tế, các bạn developer thường không tiếp cận nhiều đến các xử lý liên quan đến đa luồng, vì chúng phức tạp và có nhiều rủi ro.
-Vậy thì đa luồng có gì hay ho và có những rủi ro gì mà chúng ta cần biết?
+In fact, developers often don't have much access to multithreading related processes, because they are complex and have many risks.
+
+So what's so good about multithreading and what risks do we need to be aware of?
+
 Let's go!!!
 
-Lấy ví dụ bạn cần unzip thông tin idols từ 1000 file đã được zip. Mỗi file bạn mất 10 phút để giải nén chẳng hạn:
-1000 * 10 = 10.000 phút (~7 ngày) để giải nén hết đống này.
+For example, you need to unzip idols information from `1000 zipped files`. Each file you take 10 minutes to decompress, for example:
+`1000 * 10 = 10,000 minutes (~7 days)` to decompress all of this.
 
-=> cơ mà thế thì lâu vãi ra, bạn muốn trong 1 ngày thôi ~~
+=> but that's taking a long time, you want it in 1 day.
 
--> ez, chia ra 7 máy làm, mỗi máy 1000/7 files ==.
+-> ez, divided into `7 machines`, each machine `1000/7 files`.
 
-Nhưng mà đợi đã mình đang xài con i7-8750H (lấy đại thôi) cơ mà?? Cơ bản CPU của mình có 12 Thread (nhân thực).
-=> Đồng nghĩa với việc là CPU này có thể xử lý song song 12 tác vụ, trường hợp này là file). Trên lí thuyết là thế, nhưng thực ra 12 threads đó còn phải care các task của OS nữa ==!
+But wait, I'm using an i7-8750H (just get it) right? My CPU basically has 12 Threads (real core).
 
-Đây chính là bài toán mà đa luồng sẽ được sử dụng để giải quyết.
->Thay vì sử dụng 1 thread để xử lý hết 1000 files thì chúng ta sử dụng 7 thread để xử lý 1000 files này. Vì lí thuyết là thời gian thực hiện
-sẽ giảm xuống 7 lần, thực tế còn phụ thuộc vào memories nữa. Khi đó CPU sẽ thực hiện 7 tác vụ song song cho app của chúng ta.
+=> This means that this CPU can handle 12 tasks in parallel, in this case, files). That's it in theory, but actually those 12 threads still have to take care of OS tasks!
 
-*thế là ngon rồi, 1 ngày là xong mịa rồi =))*
+**This is the problem that multithreading will be used to solve.**
 
-Yup, thế thì có gì đâu mà risk?
-Hơ hơ, nếu mỗi file bạn tạo ra 1 Thread để sử dụng thì => 1000 Threads, ù uôi, chúng sẽ được load lên RAM, ví dụ mỗi file là 1GB (idols chắc hơn nữa cơ) 
-=> cần 1000GB RAM. Nà ní =_=
+> Instead of using 1 thread to process all 1000 files, we use 7 threads to process these 1000 files. Since the theory is that the execution time will be reduced by 7 times, the reality depends on the memories as well. The CPU will then perform 7 parallel tasks for our app.
 
-Rõ ràng điều này là bất khả thi, giả sử PC của bạn 16 GB RAM thì chắc chắn sẽ bị crash app vì xảy ra lỗi tràn bộ nhớ.
-=> Khi sử dụng đa luồng chúng ta cần quản lý nó, sln là thay vì tạo ra 1000 threads thì chúng ta tạo ra 1 thằng quản lý (pooling - thread pooling), nó sẽ cho thực hiện mỗi lần 7 file và chỉ thực hiện file thứ 8 khi 1 trong các file được hoàn thành.
+_That's good, 1 day is done!_
 
-Đại khái nó nhưng 1 cái hồ bơi (~ connection pooling), nó tạo ra 7 cái đường bơi, nó sẽ cho một thằng vào bơi nếu có 1 đường bơi nào đó đang rảnh (đang không có thằng nào bơi, chắc là nó dơ =)) ).
+Yup, then what's the risk?
 
-Trên đây, là chia sẻ của mình mạn bàn về một vài khía cạnh, một vài chú ý khi sử dụng đa luồng (multi threading) trong lập trình!
-Cảm ơn vì bạn đã đọc tới đây!!!
+But, if each file you create 1 Thread to use then => 1000 Threads, ooh, they will be loaded into RAM, for example each file is 1GB (idols are sure more)
 
-Refer with c# tuts: 
+=> We need `1000 GB` for memory. The big problem.
+
+Obviously this is not possible, assuming your PC has 16 GB of RAM, it will definitely crash the app because of an overflow error.
+
+=> When using multithreading we need to manage it, solution is instead of creating 1000 threads, we create 1 manager (pooling - thread pooling), it will execute 7 files at a time and only execute files. 8th when one of the files is completed.
+
+It's roughly but 1 pool (~ connection pooling), it creates 7 swimming paths, it will let a guy in if there is a swimming pool that is free (no one is swimming, it must be dirty).
+
+Above, is my sharing about a few aspects, some notes when using multi threading in programming!
+
+Thanks for reading this far!!!
+
+Refer with c# tuts:
+
 - [https://www.tutorialspoint.com/csharp/csharp_multithreading.htm](https://www.tutorialspoint.com/csharp/csharp_multithreading.htm)
 - [https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadpool?view=netframework-4.8](https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadpool?view=netframework-4.8).
