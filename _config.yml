@@ -208,7 +208,16 @@ authors:
     name: Duy Lương
     email: luonguit@gmail.com
     bio: The little ant. To be an ant knight!
-    image: /img/luong-phung.png
+    image: /img/authors/luong-phung.png
     facebook: https://www.facebook.com/luonguit
     github: https://github.com/krakenon
     website: https://luong-phung.kongd.io
+
+  vinh_dang:
+    name: Vinh Đặng
+    email: quangvinh050293@gmail.com
+    bio: The little ant. To be an ant knight!
+    image: /img/authors/vinh-dang.jpg
+    facebook: https://www.facebook.com/profile.php?id=100001388806744
+    github: https://github.com/hawful70
+    website: https://blogs.kongd.io/
