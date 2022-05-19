@@ -1,7 +1,7 @@
-url: "https://blogs.kongd.io"
+url: "https://blog.nikoder.dev"
 baseurl: ""
 
-title: KongD Blogs
+title: Niko Blogs
 
 description: To be a giant, let to be an ant knight!
 
@@ -42,7 +42,7 @@ footer-img: "/img/bgimage.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Kongd.io
+  name: Nikoder.dev
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -77,11 +77,11 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://blogs.kongd.io"
+url-pretty: "https://blog.nikoder.dev"
 
 # Staticman support
 staticman:
-  repository: "https://github.com/krakenon/blogs"
+  repository: "https://github.com/niko0xdev/blogs"
   branch: "master"
   endpoint: # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
   reCaptcha:
@@ -210,8 +210,8 @@ authors:
     bio: The little ant. To be an ant knight!
     image: /img/authors/luong-phung.png
     facebook: https://www.facebook.com/luonguit
-    github: https://github.com/krakenon
-    website: https://luong-phung.kongd.io
+    github: https://github.com/niko0xdev
+    website: https://luong-phung.nikoder.dev
 
   vinh_dang:
     name: Vinh Đặng
@@ -220,4 +220,4 @@ authors:
     image: /img/authors/vinh-dang.jpg
     facebook: https://www.facebook.com/profile.php?id=100001388806744
     github: https://github.com/hawful70
-    website: https://blogs.kongd.io/
+    website: https://blog.nikoder.dev/
