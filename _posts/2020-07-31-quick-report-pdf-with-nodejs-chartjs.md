@@ -2,7 +2,7 @@
 layout: post
 title: Build quick report on nodejs server side with EJS template and ChartJS
 subtitle: NodeJS Quick PDF Report
-gh-repo: krakenon/blogs
+gh-repo: niko0xdev/blogs
 gh-badge: [star, fork, follow]
 tags: [nodejs, report, pdf, backend, chartjs]
 author: duy_luong

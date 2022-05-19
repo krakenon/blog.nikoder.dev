@@ -2,7 +2,7 @@
 layout: post
 title: Microservice monitoring - Resources Metrics
 subtitle: Monitoring containerized microservices with resources metrics.
-gh-repo: krakenon/blogs
+gh-repo: niko0xdev/blogs
 gh-badge: [star, fork, follow]
 tags:
   [

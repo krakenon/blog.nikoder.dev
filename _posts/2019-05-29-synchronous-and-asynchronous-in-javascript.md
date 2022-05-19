@@ -2,7 +2,7 @@
 layout: post
 title: Synchronous and asynchronous handling in javascript
 subtitle: synchronus/asynchronus vs multiple thread
-gh-repo: krakenon/blogs
+gh-repo: niko0xdev/blogs
 gh-badge: [star, fork, follow]
 tags: [javascript, async, sync]
 author: duy_luong

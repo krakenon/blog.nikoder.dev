@@ -2,7 +2,7 @@
 layout: post
 title: Microservice monitoring - Application Logs
 subtitle: Monitoring containerized microservices with application logs.
-gh-repo: krakenon/blogs
+gh-repo: niko0xdev/blogs
 gh-badge: [star, fork, follow]
 tags:
   [

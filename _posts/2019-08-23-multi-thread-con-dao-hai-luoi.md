@@ -2,7 +2,7 @@
 layout: post
 title: Multi threading and development mistakes
 subtitle: What is multi threading helpful?
-gh-repo: krakenon/blogs
+gh-repo: niko0xdev/blogs
 gh-badge: [star, fork, follow]
 tags: [multi-thread, multi, threading]
 author: duy_luong

@@ -2,7 +2,7 @@
 layout: post
 title: Using rxjs effective in javascript client side (browser)
 subtitle: ReactiveX JS
-gh-repo: krakenon/blogs
+gh-repo: niko0xdev/blogs
 gh-badge: [star, fork, follow]
 tags: [javascript, rxjs]
 author: duy_luong

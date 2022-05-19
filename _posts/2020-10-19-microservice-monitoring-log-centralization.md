@@ -2,7 +2,7 @@
 layout: post
 title: Microservice monitoring - Log centralization
 subtitle: Monitoring containerized microservices with a centralized logging architecture.
-gh-repo: krakenon/blogs
+gh-repo: niko0xdev/blogs
 gh-badge: [star, fork, follow]
 tags: [microservices, microservice, logs, logging, traces, tracing, monitors, monitoing]
 author: duy_luong

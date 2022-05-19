@@ -2,7 +2,7 @@
 layout: post
 title: Microservice monitoring - Distributed Tracing
 subtitle: Monitoring containerized microservices with distributed tracing.
-gh-repo: krakenon/blogs
+gh-repo: niko0xdev/blogs
 gh-badge: [star, fork, follow]
 tags:
   [
