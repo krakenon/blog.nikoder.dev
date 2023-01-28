@@ -59,7 +59,7 @@ Installing a service worker is a multi-step process that involves registering th
 
 - Take control of the scope: Once the service worker is registered, it will start the installation process. The install event is fired and you can use it to cache the resources you need in order to make the web app work offline. Once the installation process is finished, the service worker will be in a "waiting" state. Once all the tabs of your web app are closed, the service worker will be activated and it will take control of the scope that you specified in the registration process.
 
-## Caching strategires with Service workers
+## Caching strategies with Service workers
 
 ### 1. Stale-while-revalidate
 
