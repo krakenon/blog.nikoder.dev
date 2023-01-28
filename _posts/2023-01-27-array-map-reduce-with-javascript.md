@@ -11,7 +11,7 @@ comments: true
 
 > Map and Reduce: Understanding and Implementing These Powerful Array Methods in JavaScript
 
-JavaScript provides a number of built-in array methods that can be used to manipulate arrays in a variety of ways. Two of the most powerful and commonly used methods are `map` and `reduce`. In this blog post, we will explore what these methods do, and how to use them to perform complex operations on arrays of data in JavaScript.
+JavaScript provides a number of built-in array methods that can be used to manipulate arrays in a variety of ways. Two of the most powerful and commonly used methods are `map` and `reduce`. In this section, we will explore what these methods do, and how to use them to perform complex operations on arrays of data in JavaScript.
 
 ## Array `map` method
 
