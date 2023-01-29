@@ -238,3 +238,7 @@ Service workers are a powerful tool for handling caching in web applications. Th
 Each of these strategies have their own use cases, and it's important to choose the right one for your application.
 
 It's also important to note that service workers can be used for other purposes than caching such as push notifications, background sync, and more.
+
+## References
+- [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers)
+- [Workbox-strategies](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/)

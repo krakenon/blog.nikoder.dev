@@ -58,3 +58,7 @@ It is worth noting that the `reduce` method can also be used to perform more com
 ## Summary
 
 In conclusion, `map` and `reduce` are two powerful array methods in JavaScript that enable developers to perform complex operations on arrays of data. By using these methods, developers can write more readable and performant code, and avoid having to write long and complex loops. It's always good to keep in mind that they are not the only method to do something and there are other alternatives. But the map and reduce method are great tools to have in your toolbox.
+
+## References
+- [Array map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [Array reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
