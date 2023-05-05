@@ -6,7 +6,7 @@ gh-repo: niko0xdev/blogs
 gh-badge: [star, fork, follow]
 tags: [javascript, array, map, reduce]
 author: duy_luong
-comments: true
+comments: false
 ---
 
 > Map and Reduce: Understanding and Implementing These Powerful Array Methods in JavaScript

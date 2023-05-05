@@ -50,13 +50,13 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "luonguit@gmail.com"
+  email: "niko0xdev@gmail.com"
   facebook: luonguit
   github: niko0xdev
   twitter: nikoderdev
-#  reddit: yourname
-#  google-plus: +DeanAttali
-#  linkedin: daattali
+  #  reddit: yourname
+  #  google-plus: +DeanAttali
+  linkedin: duyluongphung
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -97,7 +97,7 @@ staticman:
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 150
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
@@ -123,7 +123,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true # add comments to all blog posts
+      comments: false # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   - scope:
       path: "" # all files
@@ -205,19 +205,10 @@ theme: jekyll-theme-architect
 
 authors:
   duy_luong:
-    name: Duy Lương
-    email: luonguit@gmail.com
+    name: Niko
+    email: niko0xdev@gmail.com
     bio: The little ant. To be an ant knight!
     image: /img/authors/luong-phung.png
     facebook: https://www.facebook.com/luonguit
     github: https://github.com/niko0xdev
-    website: https://luong-phung.nikoder.dev
-
-  vinh_dang:
-    name: Vinh Đặng
-    email: quangvinh050293@gmail.com
-    bio: The little ant. To be an ant knight!
-    image: /img/authors/vinh-dang.jpg
-    facebook: https://www.facebook.com/profile.php?id=100001388806744
-    github: https://github.com/hawful70
-    website: https://blog.nikoder.dev/
+    website: https://nikoder.dev

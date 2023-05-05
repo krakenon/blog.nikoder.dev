@@ -610,6 +610,7 @@ footer .theme-by {
   background-color: #FFF;
   border-radius: 0;
   color: #404040;
+  border-radius: 4rem;
 }
 @media only screen and (min-width: 768px) {
   .pager li a {
@@ -799,7 +800,6 @@ td.gutter {
   max-width: 150px;
   border-radius: 50%;
   border: 5px solid #000;
-    padding: 15px;
 }
 .navbar-custom {
     padding-top: 50px;
@@ -833,4 +833,31 @@ td.gutter {
     padding: 7.5px;
     font-size: 15px;
     color: #ffffff;
+}
+
+#scroll-to-top {
+  cursor: pointer;
+  display: block;
+  position: fixed;
+  font-size: 20px;
+  bottom: 10%;
+  right: 10%;
+  opacity: 0;
+  z-index: 10;
+  
+  transform: translateY(30%);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+#scroll-to-top::after {
+  content: "^";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 3px;
+  left: 4px;
 }

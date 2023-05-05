@@ -16,7 +16,7 @@ tags:
     monitoing,
   ]
 author: duy_luong
-comments: true
+comments: false
 ---
 
 [![distributed-trace-diagram.png](/img/clm/distributed-trace-diagram.png)](/img/clm/distributed-trace-diagram.png)

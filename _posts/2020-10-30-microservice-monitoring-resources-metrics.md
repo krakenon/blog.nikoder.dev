@@ -16,7 +16,7 @@ tags:
     monitoing,
   ]
 author: duy_luong
-comments: true
+comments: false
 ---
 
 > Logs are easy to integrate into your application, and they give you the ability to represent any type of data in the form of strings.

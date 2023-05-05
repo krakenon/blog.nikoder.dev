@@ -6,7 +6,7 @@ gh-repo: niko0xdev/blogs
 gh-badge: [star, fork, follow]
 tags: [javascript, service worker, sw, workbox]
 author: duy_luong
-comments: true
+comments: false
 ---
 
 > Service workers are a powerful tool for web development, providing developers with more control over the network and caching strategies of web applications
