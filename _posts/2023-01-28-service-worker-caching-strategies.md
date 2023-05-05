@@ -103,7 +103,7 @@ Example of how to implement the Cache First strategy with a service worker:
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open("my-cache").then((cache) => {
-      return cache.addAll(["/css/styles.css", "/js/main.js", "/img/logo.png"]);
+      return cache.addAll(["/css/styles.css", "/js/main.js", "/img/logo.jpg"]);
     })
   );
 });
@@ -221,7 +221,7 @@ self.addEventListener("install", function (event) {
       return cache.addAll([
         "/styles/main.css",
         "/scripts/main.js",
-        "/images/logo.png",
+        "/images/logo.jpg",
       ]);
     })
   );
