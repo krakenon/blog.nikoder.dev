@@ -1,4 +1,4 @@
-url: "https://blog.nikoder.dev"
+url: "https://blog.0xniko.dev"
 baseurl: ""
 
 title: Niko Blogs
@@ -77,7 +77,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://blog.nikoder.dev"
+url-pretty: "https://blog.0xniko.dev"
 
 # Staticman support
 staticman:
@@ -211,4 +211,4 @@ authors:
     image: /img/authors/luong-phung.png
     facebook: https://www.facebook.com/luonguit
     github: https://github.com/niko0xdev
-    website: https://nikoder.dev
+    website: https://work.0xniko.dev
